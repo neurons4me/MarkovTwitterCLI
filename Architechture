@@ -1,0 +1,8 @@
+Purpose of app: Create bot generated tweets in the "voice" of a selected twitter user
+
+Steps:
+
+-Get user input re choice of twitter account to pull from
+-query twitter API for output of all tweets of that user
+-parse tweets to create a corpus of word/subsequent-word combos with frequency
+-use Markov chain to generate new tweets
